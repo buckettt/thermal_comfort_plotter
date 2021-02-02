@@ -1,0 +1,15 @@
+name: thermal_comfort_plotter
+# channels priority
+# see https://bioconda.github.io/
+# conda-forge has highest prioriy
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python>=3.7
+  - numpy
+  - pandas
+  - matplotlib
+  - jupyterlab=2
+  - nodejs
+  - pip
